@@ -1,5 +1,6 @@
 <?php
-include_once("../layout.php");
+include_once __DIR__ . '/../header.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +10,6 @@ include_once("../layout.php");
     <title>Home</title>
 </head>
 <body>
-    
+   
 </body>
 </html>
