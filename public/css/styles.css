@@ -1,0 +1,17 @@
+body { margin: 0; font-family: sans-serif; }
+  nav {
+    background: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+  }
+  nav a:hover {
+    color: #00ffc8;
+  }
+
