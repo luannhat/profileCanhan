@@ -1,17 +1,11 @@
-body { margin: 0; font-family: sans-serif; }
-  nav {
-    background: #333;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    transition: 0.3s;
-  }
-  nav a:hover {
-    color: #00ffc8;
-  }
+#formMessage p.success {
+    color: #27ae60;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
 
+#formMessage p.error {
+    color: #e74c3c;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
